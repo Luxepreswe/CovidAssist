@@ -2,5 +2,3 @@ Flask==1.1.1
 Flask-WTF==0.14.3
 covid==2.2.1
 covid-india==1.1.1
-git push heroku master
-
