@@ -2,10 +2,6 @@ from flask import *
 from covid import Covid
 from covid_india import states
 from wtforms import Form, TextField, TextAreaField, validators, StringField, SubmitField
-import matplotlib.pyplot as plt
-from matplotlib import *
-import io
-import base64
 app = Flask(__name__)
 @app.route('/')
 def covid():
